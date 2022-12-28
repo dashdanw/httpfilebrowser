@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "e621"
+version = "0.1.0"
+description = ""
+authors = ["dashdanw <dashdanw@gmail.com>"]
+license = "Closed"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.28.1"
+beautifulsoup4 = "^4.11.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipdb = "^0.13.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
